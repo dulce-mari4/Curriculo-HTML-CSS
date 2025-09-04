@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: #f5f5f5;
+}
+
+.curriculo {
+  background: white;
+  padding: 30px;
+  width: 70%;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Cabeçalho centralizado */
+.cabecalho {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.curriculo h1,
+.curriculo p:first-of-type,
+.curriculo p:nth-of-type(2) {
+  text-align: center;
+}
+
+
+.cabecalho p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Seções alinhadas à esquerda */
+.curriculo h2 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+}
+
+.curriculo p, 
+.curriculo ul {
+  text-align: left;
+  line-height: 1.6;
+}
+
+.curriculo h3 {
+  color: #2c3e50; /* azul bem fechado */
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-top: 25px;
+}
+
+.curriculo p, 
+.curriculo li {
+  line-height: 1.6;
+}
+
+.curriculo ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.curriculo a {
+  text-decoration: none;
+  color: #0077b5; /* azul do LinkedIn */
+  font-weight: bold;
+}
+
+.curriculo a:hover {
+  text-decoration: underline;
+}
+
+.cabecalho h1 {
+  font-size: 30px;
+  letter-spacing: 2px; /* espaça um pouco as letras */
+}
+
+.curriculo {
+  background: white;
+  padding: 40px;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.curriculo h1{
+    color:#2c3e50
+}
